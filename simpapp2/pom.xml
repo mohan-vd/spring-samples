@@ -125,12 +125,12 @@
             <plugin>
                 <groupId>org.eclipse.jetty</groupId>
                 <artifactId>jetty-maven-plugin</artifactId>
-                <version>9.4.6.v20170531</version>
+                <version>9.4.9.v20180320</version>
                 <configuration>
-                    <webAppConfig>
-                        <war>${project.basedir}/target/${war.name}.war</war>
-                        <contextPath>/simpleapp</contextPath>
-                    </webAppConfig>
+                    <war>${project.basedir}/target/${war.name}.war</war>
+                    <webApp>
+                        <contextPath>/simple-app2</contextPath>
+                    </webApp>
                 </configuration>
             </plugin>
         </plugins>
