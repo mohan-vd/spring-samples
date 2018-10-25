@@ -130,7 +130,6 @@
                     <webAppConfig>
                         <war>${project.basedir}/target/${war.name}.war</war>
                         <contextPath>/simpleapp</contextPath>
-                        <resourceBase>${project.basedir}/src/main/webapp</resourceBase>
                     </webAppConfig>
                 </configuration>
             </plugin>
