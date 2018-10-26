@@ -44,10 +44,7 @@ public class NoteControllerTest {
 
     @InjectMocks
     private NoteController controller;
-
-    @Autowired
-    private WebApplicationContext webApplicationContext;
-
+    
     @Before
     public void setUp() throws Exception {
         MockitoAnnotations.initMocks(this);
